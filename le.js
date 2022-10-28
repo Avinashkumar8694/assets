@@ -25,4 +25,8 @@
     function getMessage(){
         return "this is js message."
     }
+    
+    return {
+        getMessage: getMessage
+    }
 }));
